@@ -1,7 +1,164 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Muestra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .gallery-item {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .gallery-link {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .gallery-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .gallery-caption {
+            padding: 15px;
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <h1>Muestra 8vos Liceo 1 San Carlos</h1>
+    
+    <div class="gallery">
+        <!-- Item 1 -->
+        <div class="gallery-item">
+            <a href="https://padlet.com/facujavaw/8vo1-j9j919dgk4y4gftm" class="gallery-link" target="_blank">
+                <img src="https://www.eimenuts.com/app/uploads/numero-1-letras-y-numeros-numeros-pintado-por-fernando6-9751630-600x448.jpg" alt="Imagen 1" class="gallery-image">
+                <div class="gallery-caption">
+                    <h3>8º1</h3>
+                    <p>Click para Ingresar</p>
+                </div>
+            </a>
+        </div>
+        
+        <!-- Item 2 -->
+        <div class="gallery-item">
+            <a href="http://padlet.com/cdiaz3_21/8-2-muestra-m-dulo-introductorio-lvf6kux5pygktrqa" class="gallery-link" target="_blank">
+                <img src="https://img.freepik.com/vector-premium/3d-numero-2-dos-numero-signo-color-rojo_165488-5565.jpg?w=360" alt="Imagen 2" class="gallery-image">
+                <div class="gallery-caption">
+                    <h3>8º2</h3>
+                     <p>Click para Ingresar</p>
+                </div>
+            </a>
+        </div>
+        
+        <!-- Item 3 -->
+        <div class="gallery-item">
+            <a href="http://padlet.com/cdiaz3_21/8-3-muestra-m-dulo-introductorio-kxxjmsee9uee1sv7" class="gallery-link" target="_blank">
+                <img src="https://img.freepik.com/vector-premium/3d-numero-3-tres-numero-signo-color-rojo_165488-5568.jpg" alt="Imagen 3" class="gallery-image">
+                <div class="gallery-caption">
+                    <h3>8º3</h3>
+                     <p>Click para Ingresar</p>
+                </div>
+            </a>
+        </div>
+        
+        <!-- Item 4 -->
+        <div class="gallery-item">
+            <a href="https://padlet.com/fabitososa84/8-4-muestra-m-dulo-introductorio-lac1n8dgcqowxmjg" class="gallery-link" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgkazinlH-HFDoWbB6Lb3VXdBwDf3kEtZuVQ&s" alt="Imagen 4" class="gallery-image">
+                <div class="gallery-caption">
+                    <h3>8º4</h3>
+                     <p>Click para Ingresar</p>
+                </div>
+            </a>
+        </div>
+        
+        <!-- Item 5 -->
+        <div class="gallery-item">
+            <a href="https://padlet.com/fabitososa84/8-5-muestra-m-dulo-introductorio-eyolltiu7ds7p6hd" class="gallery-link" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuMeL8C1qec83EDYAxHCHoK6AvzoXQMMTvNA&s" alt="Imagen 5" class="gallery-image">
+                <div class="gallery-caption">
+                    <h3>8º5</h3>
+                   <p>Click para Ingresar</p>
+                </div>
+            </a>
+        </div>
+        
+        <!-- Item 6 -->
+        <div class="gallery-item">
+            <a href="https://padlet.com/profelengua2025/8-6-muestra-m-dulo-introductorio-mf28wr00dxgbwb16" class="gallery-link" target="_blank">
+                <img src="https://thumbs.dreamstime.com/z/divertido-violeta-n%C3%BAmero-seis-personaje-de-dibujos-animados-que-muestra-las-manos-ilustraci%C3%B3n-vectorial-dibujada-mano-aislada-220165928.jpg" alt="Imagen 6" class="gallery-image">
+                <div class="gallery-caption">
+                    <h3>8º6</h3>
+                     <p>Click para Ingresar</p>
+                </div>
+            </a>
+        </div>
+        
+        <!-- Item 7 -->
+        <div class="gallery-item">
+            <a href="https://padlet.com/profelengua2025/clon-de-8-7-muestra-m-dulo-introductorio-rynjbrqwbaswu889" class="gallery-link" target="_blank">
+                <img src="https://thumbs.dreamstime.com/z/divertido-azul-n%C3%BAmero-siete-personaje-de-dibujos-animados-que-muestra-las-manos-ilustraci%C3%B3n-vectorial-dibujada-mano-aislada-220165942.jpg" alt="Imagen 7" class="gallery-image">
+                <div class="gallery-caption">
+                    <h3>8º7</h3>
+                   <p>Click para Ingresar</p>
+                </div>
+            </a>
+        </div>
+        
+        <!-- Item 8 -->
+        <div class="gallery-item">
+            <a href="https://padlet.com/profelengua2025/8-8-muestra-m-dulo-introductorio-toi41mkgcy10tb1n" class="gallery-link" target="_blank">
+                <img src="https://assets.puzzlefactory.com/puzzle/271/384/original.jpg" alt="Imagen 8" class="gallery-image">
+                <div class="gallery-caption">
+                    <h3>8º8</h3>
+                     <p>Click para Ingresar</p>
+                </div>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
